@@ -4,19 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
+    <h2>Calculadora</h2>
     <div class="container">
-        <div class="button" value="1">1</div>
-        <div class="button" value="2">2</div>
-        <div class="button" value="3">3</div>
-        <div class="button" value="4">4</div>
-        <div class="button">5</div>
-        <div class="button">6</div>
-        <div class="button">7</div>
-        <div class="button">8</div>
-        <div class="button">9</div>
-        <div class="button">0</div>
+        <div class="content">
+            <div class="operacao" id="add">+</div>
+            <div class="operacao" id="subtract">-</div>
+            <div class="operacao" id="multiply">x</div>
+            <div class="operacao" id="divide">/</div>
+        </div>
+        <div class="content">
+            <div class="button" value="1">1</div>
+            <div class="button" value="2">2</div>
+            <div class="button" value="3">3</div>
+            <div class="button" value="4">4</div>
+        </div>
+        <div class="content">
+            <div class="button" value="5">5</div>
+            <div class="button" value="6">6</div>
+            <div class="button" value="7">7</div>
+            <div class="button" value="8">8</div>
+        </div>
+        <div class="content">
+            <div class="button" value="9">9</div>
+            <div class="button" value="0">0</div>
+            <div class="button" id="equals">=</div>
+            <div class="button" id="clear">C</div>
+        </div>
+        <div class="content">
+            <input type="text" id="display" readonly>
+        </div>
     </div>
 </body>
 </html>
