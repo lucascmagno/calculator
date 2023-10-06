@@ -6,7 +6,7 @@ let currentOperation = "";
 // Elemento de exibição
 const display = document.getElementById("display");
 
-// Adicione manipuladores de eventos para os botões numéricos
+// Adicionando manipuladores de eventos para os botões numéricos
 const buttons = document.querySelectorAll(".button");
 buttons.forEach(button => {
     button.addEventListener("click", () => {
@@ -20,7 +20,7 @@ buttons.forEach(button => {
     });
 });
 
-// Adicione manipuladores de eventos para os botões de operação
+// Adicionando manipuladores de eventos para os botões de operação
 const operations = document.querySelectorAll(".operacao");
 operations.forEach(operation => {
     operation.addEventListener("click", () => {
